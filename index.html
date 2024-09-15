@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prahan matka</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrapin CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--bootstrap, bundle-versiossa on mukana myös popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+<body>
+
+<!--Muutin taustan väriä--> 
+<body class="p-3 mb-2 bg-danger-subtle text-dark-gradient"> 
+
+  <!--Sivun Navi-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Matkani</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Lisää matkasta.html">Lisää matkasta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Muistot.html">Muistot</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--Lisäsin tilaa elementtien välille--> 
+<div style="padding-bottom: 80px"></div> 
+
+<!--Karuselli-->
+<div id="Karuselli" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="yöllä.jpg" class="d-block w-100" alt="Kuva Prahasta. Joki ja Prahan linna, yö aikaan.">
+    </div>
+    <div class="carousel-item">
+      <img src="ylhäältä.jpg" class="d-block w-100" alt="Panoraamakuva Prahan kaupungista päivällä.">
+    </div>
+    <div class="carousel-item">
+      <img src="joki.jpg" class="d-block w-100" alt="Prahasta päivällä. Joki ja Prahan rakennukset">
+    </div>
+    <div class="carousel-item">
+      <img src="siluetti.jpg" class="d-block w-100" alt="Siluetti Prahasta, jossa taivas on vielä valoisa, mutta rakennukset ovat lähes mustia.">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#Karuselli" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#Karuselli" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<h1>Matkani Prahaan</h1>
+
+<p>Kävin elokuun alussa extempore reisussa Prahaan. Se on ollut yksi minun unelmakohteista 
+    jo useamman vuoden. Prahan kaupunki oli kuin yksi iso taideteos taivaan alla. Olen useamman 
+    kerran kuullut, että Praha on yksi maailman kauneimpia kaupunkeja ellei kaunein. Voin itsekkin
+    samaistua tähän väitteeseen, koska kauneutta oli joka kadulla. Tällä sivustolla esittelen 
+    pintapuolisesti kaupungista ja matkastani, näyttämällä muutamia nippelitietoja, kuvia ja 
+    kertomuksia. </p>
+
+<!--Kortit-->
+<div class="card-group">
+  <div class="card">
+    <img src="vessa.jpg" class="card-img-top" alt="Prahan vessa, jonka sisäänkäynti löytyy suoraan joen yläpuolelta">
+    <div class="card-body">
+      <h5 class="card-title">Erikoinen vessa</h5>
+      <p class="card-text">Olin ylittämässä most Legii nimistä siltaa ja huomasin erikoisen vessan. 
+        Vessa oli suoraan joen yläpuolella. Lisäksi siellä melkein kaikki vessat olivat maksullisia. 
+        Suurinpaan osaan vieläpä kävi maksuvälineeksi vain käteinen, joten sitä kannattaa varata mukaan. </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="koirat.jpg" class="card-img-top" alt="Asfaltin päällä kaksi maalausta, jossa toisessa  
+    koira vapaana ja toisessa hihnalla.">
+    <div class="card-body">
+      <h5 class="card-title">Koiravapaa puisto</h5>
+      <p class="card-text">Olin ulkoilemassa Seminary Garden nimisessä puistossa ja huomasin, että 
+        puisto oli täynnä koiria ja heidän omistajia. Katselin lisää ja huomioni kiinittyi, että 
+        jokainen koira on vapaana. Poistuessani puistosta huomasin, että asfaltissa oli maalaus, 
+        josta päättelin, että puistossa onkin tarkoitus pitää koira vapaana. </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="liukum.jpg" class="card-img-top" alt="Kuvassa on lelukaupan toisesta kerroksesta laskee käärmen 
+    muotoinen liukumäki ensimmäiseen kerrokseen.">
+    <div class="card-body">
+      <h5 class="card-title">Jännittävä liukumäki</h5>
+      <p class="card-text">Prahan keskustassa oli iso lelukauppa nimeltään The Playground. 
+        Sisältä löyty käärmeen näköinen liukumäki toisesta kerroksesta ensimmäiseen kerrokseen. 
+        Rehellisesti teki mieli laskea, mutta liukumäkeen oli jonkun verran jonoa. </p>
+    </div>
+  </div>
+</div>
+
+<div style="padding-bottom: 60px;"></div>
+
+</body>
+</html>
